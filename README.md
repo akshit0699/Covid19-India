@@ -6,15 +6,16 @@ Built using Python and [Dash](https://dash.plot.ly/) by ploltly, with charts mad
 ---
 The data used is directly from the Government of India's portal [https://www.mohfw.gov.in/index.html](https://www.mohfw.gov.in/index.html) which gets updated twice daily and henceforth automatically updates the dashboard.
 
+The day wise new cases are being recorded from [https://indiacovid19.github.io/](https://indiacovid19.github.io/)
 
-The dashboard has six major sections.
+The dashboard provides an easy way to gain insights with regard to the increasing coronavirus cases in India, the plots have been designed to be easy to interact with, and view on mobile devices.
  
  ## The latest updates
- Four tiles at the top that display the latest rise in Total Confirmed, Active, Recovered and Death cases along with the rise from the previous day in India.
+Four tiles at the top that display the latest rise in Total Confirmed, Active, Recovered and Death cases along with the rise from the previous day in India.
  ![dashboard](images/Counts.png)
  
  ## Day-wise rise in confirmed cases
- A Plot showing day wise rise in confirmed cases each day since the first case was identified in India. It is easy to interact with and gain insights.
+A day wise rise in confirmed cases is being recorded since the rise of the pandemic in India
  ![dashboard](images/Cases_new.png)
  
  ## State- wise rise in confirmed cases
@@ -26,6 +27,6 @@ The plot contains the trend for "Confirmed Cases", "Recovered Cases", "Active Ca
 ![dashboard](images/Trajectory.png)
 
 ## State-wise count of cases
-The plot contains the total confirmed cases in each state. Using the buttons, you can choose to see "Deaths", "Recovered Cases" or "Active Cases" as well.
+The plot is a display of the exact count of corona virus cases in the country, a drop down menu is provided to select what the user wishes to see
 ![dashboard](images/Rise.png)
  
